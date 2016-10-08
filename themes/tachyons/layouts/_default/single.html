@@ -1,0 +1,14 @@
+{{ partial "header.html" . }}
+
+  <main>
+
+    <h1 class='f2 f1-ns fw4 lh-title i ma0'>{{ .Title }}</h1>
+    <h2 class='f5 ttu tracked lh-title gray mt4 mb4 mb5-ns'>{{ .Date.Format "2 January, 2006" }}</h2>
+
+    <article class='measure-wide lh-copy f4'>
+      {{ .Content }}
+    </article>
+
+  </main>
+
+{{ partial "footer.html" . }}
