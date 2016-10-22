@@ -1,0 +1,7 @@
+---
+languageCode: "en-ca"
+baseurl: "https://asstdtxt.now.sh"
+title: "Assorted text by Cole Peters"
+permalinks:
+  post: /:year/:month/:title
+...

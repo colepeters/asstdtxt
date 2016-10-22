@@ -2,17 +2,52 @@
 <html lang='en'>
   <head>
     <meta charset='utf-8'>
-    <meta http-equiv='X-UA-Compatible' content='IE=Edge'>
-    <meta name='author' content='Marlon Cabrera Oliveira'>
-    <meta name='description' content='Hugo theme using tachyons.io & geomicons.com'>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <meta http-equiv='X-UA-Compatible' content='IE=Edge'>
+    <meta name='author' content='Cole Peters'>
+    <meta name='description' content='Writing by Cole Peters, who is a photographer amongst other things.'>
     <link rel='stylesheet' href='https://unpkg.com/tachyons@4.5.3/css/tachyons.min.css'/>
     <style>
-        .geomicon { width: 1.5em; height: 1.5em; color: #405660; }
-        .antialias { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+        a:not(.link) {
+          color: currentColor;
+          text-decoration: none;
+          background-image: linear-gradient(transparent 50%, #ffb700 50%);
+          background-repeat: repeat-x;
+          background-size: 4px 4px;
+          background-position: 0 90%;
+        }
+
+        a:not(.link):hover,
+        a:not(.link):focus {
+          color: #999;
+        }
+
+        hr {
+          border: none;
+          border-top: 1px solid #999;
+          margin-top: 2em;
+          margin-bottom: 2em;
+        }
+
+        article h2,
+        article h3,
+        article h4,
+        article h5,
+        article h6 {
+          font-family: -apple-system, BlinkMacSystemFont;
+          font-weight: 300;
+          letter-spacing: -0.02em;
+          margin-top: 2em;
+          margin-bottom: 0;
+        }
+
+        .antialias {
+          -webkit-font-smoothing: antialiased;
+          -moz-osx-font-smoothing: grayscale;
+        }
     </style>
   </head>
-  <body class='athelas bg-white near-black ph2 ph4-ns ph5-l antialias'>
+  <body class='athelas bg-white dark-gray ph2 ph4-ns ph6-l antialias'>
     <header>
       <nav>
         <ul class='list pl0'>
@@ -21,5 +56,5 @@
           <li class='dib f6 fw6 ttu tracked dim'><a class='dim gray link' href='/about'>About</a></li>
         </ul>
       </nav>
-      <h1 class='f2 f1-ns f-headline-l fw4 ttu tracked-ns pv4 pv5-ns pv6-l'><a href='/' class='link dark-gray dim bt bw4 b--gold pt2 pt4-ns'>Impermanence</a></h1>
+      <h1 class='athelas f3 f2-ns f1-l fw4 ttu tracked pv4 pv5-ns pv6-l'><a href='/' class='link dark-gray dim bt bw3 bw4-ns b--gold pt2 pt3-ns pt4-l'>Assorted text by<br /> Cole&nbsp;Peters</a></h1>
     </header>

@@ -1,4 +1,4 @@
-<li>
-<h2><a href="{{ .Permalink }}">{{ .Title }} {{ if .GetParam "draft"}}DRAFT{{end}}</a></h2>
-{{ .Date.Format "Jan 2, 2006" }}
+<li class='mb5'>
+<h2 class='f3 fw4 i mb2'><a href="{{ .Permalink }}">{{ .Title }} {{ if .GetParam "draft"}}DRAFT{{end}}</a></h2>
+{{ .Date.Format "2 January, 2006" }}
 </li>
