@@ -19,7 +19,7 @@ Perhaps most importantly, I’ve spent a lot of time thinking critically about m
 
 This is where I turn to a video of Nina Simone that’s been making the rounds lately.
 
-<style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='http://www.youtube.com/embed/99V0mMNf5fo' frameborder='0' allowfullscreen></iframe></div>
+<style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed/99V0mMNf5fo' frameborder='0' allowfullscreen></iframe></div>
 
 For the bulk of the last two years, I’ve turned my lens to the streets of the city and the people who walk them. ‘Street photography’ is a term I’ve grown tired of — though I understand the intent, as a closed construct it borders on meaninglessness. But I appreciate and embrace the spirit of attempting to create resonance out of chaos, and this is what has drawn my lens towards public life as a subject these past years. What I’ve discovered through photographing in public, however, is an attachment to subjects which, as Ms Simone phrases it, reflect the times.
 
